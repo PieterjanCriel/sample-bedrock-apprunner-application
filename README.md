@@ -1,5 +1,8 @@
 # Foundation Models playground with AWS App Runner and AWS Bedrock
 
+<img width="1003" alt="diagram_apprunner" src="https://github.com/PieterjanCriel/sample-bedrock-apprunner-application/assets/9216903/159b77bb-57d5-4f09-a695-ed7281a94b22">
+
+
 This is a sample project to demonstrate how to use [AWS App Runner](https://aws.amazon.com/apprunner/) with [AWS Bedrock](https://aws.amazon.com/bedrock/) to deploy a minimalistic generative AI application.
 
 ## Useful commands
