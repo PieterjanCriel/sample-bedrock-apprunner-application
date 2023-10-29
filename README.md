@@ -1,8 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Foundation Models playground with AWS App Runner and AWS Bedrock
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This is a sample project to demonstrate how to use [AWS App Runner](https://aws.amazon.com/apprunner/) with [AWS Bedrock](https://aws.amazon.com/bedrock/) to deploy a minimalistic generative AI application.
 
 ## Useful commands
 
@@ -12,3 +10,5 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+* `cdk bootstrap`   bootstrap the AWS CDK toolkit
+* `cdk destroy`     destroy the stack
