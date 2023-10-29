@@ -126,13 +126,13 @@ input_text = gr.Textbox(lines=10, label="Context", placeholder="Enter your text 
 
 output_html = gr.HTML(label="Action points")
 
-showql_app = gr.Interface(
+app = gr.Interface(
     fn=follow_up_actions,
     inputs=[input_text],
     outputs=[output_html],
-    title="Action points from email conversations",
+    title="Action points",
     allow_flagging=False,
-    description="This app shows the action points from email conversations.",
+    description="This app creates action points from email conversations. (This is an example app, not a real product, a real implementation would require more checks, tests, guardrails, etc...))",
     examples=[
         """
 hi Jack,
@@ -164,9 +164,9 @@ Stacy
 
 apps = []
 
-apps.append(showql_app)
+apps.append(app)
 
-demo = gr.TabbedInterface(apps, ["showql"])
+demo = gr.TabbedInterface(apps, ["Actions"])
 
 demo.launch(
     server_port=8080,
