@@ -5,6 +5,12 @@
 
 This is a sample project to demonstrate how to use [AWS App Runner](https://aws.amazon.com/apprunner/) with [AWS Bedrock](https://aws.amazon.com/bedrock/) to deploy a minimalistic generative AI application.
 
+The application itself transforms an email to a per person to-do list.
+<img width="1601" alt="Screenshot 2023-10-29 at 19 23 31" src="https://github.com/PieterjanCriel/sample-bedrock-apprunner-application/assets/9216903/3e920dd8-8e1f-4165-b782-fda6d3a650fc">
+
+
+
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
